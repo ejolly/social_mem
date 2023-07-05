@@ -1,0 +1,26 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/env/bin/python",
+    "python.formatting.blackPath": "${workspaceFolder}/env/bin/black",
+    "python.linting.pycodestylePath": "${workspaceFolder}/env/bin/pycodestyle",
+    "python.terminal.activateEnvironment": false,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[jupyter]": {
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": false
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/code"
+    ],
+    "todo-tree.tree.scanMode": "workspace",
+    "spellright.documentTypes": [
+        "markdown"
+    ],
+}
